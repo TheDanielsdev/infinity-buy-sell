@@ -1,0 +1,217 @@
+.fname label {
+    margin-left: 305px;
+    margin-top: 80px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #000;
+    text-align: center;
+        
+}
+
+.fname input{
+    margin-left: 60px;
+    width: 500px;
+    height: 50px;
+    justify-content: center;
+    border-bottom: 2px solid #000;
+   
+}
+
+.fname input:focus {
+    border-bottom: 2px solid red;
+}
+
+
+
+.lname label {
+    margin-left: 305px;
+    margin-top: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #000;
+    text-align: center;
+    
+} 
+
+.lname input{
+    margin-left: 60px;
+    width: 500px;
+    height: 50px;
+    justify-content: center;
+    border-bottom: 2px solid #000;
+    
+}
+
+
+
+.lname input:focus {
+    border-bottom: 2px solid #0000ff;
+}
+
+.email label{
+     margin-left: 345px;
+    margin-top: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #000;
+    text-align: center;
+    
+}
+
+.email input{
+    margin-left: 65px;
+    width: 500px;
+    height: 50px;
+    justify-content: center;
+    border-bottom: 2px solid #000;
+   
+}
+
+.email input:focus{
+    border-bottom: 2px solid red;
+    
+}
+
+.pwd label{
+     margin-left: 240px;
+    margin-top: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #000;
+    text-align: center;
+}
+
+.pwd input{
+     margin-left: 55px;
+    width: 500px;
+    height: 50px;
+    justify-content: center;
+    border-bottom: 2px solid #000;
+   
+}
+
+.pwd2 label{
+    margin-left: 230px;
+    margin-top: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #000;
+    text-align: center;
+}
+
+.pwd2 input{
+     margin-left: 58px;
+    width: 500px;
+    height: 50px;
+    justify-content: center;
+    border-bottom: 2px solid #000;
+}
+
+.gender label{
+     margin-left: 230px;
+    margin-top: 50px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #000;
+    text-align: center;
+}
+
+.gender input{
+    margin-left: 70px;
+    width: 30px;
+    height: 30px;
+    justify-content: center;
+    display: inline;
+    margin-top: 10px;
+    
+    
+}
+  
+
+
+#register button {
+    margin-top: 30px;
+    margin-left: 650px;
+    padding: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-weight: bold;
+    font-size: 15px;
+    border: 2px solid dodgerblue;
+    border-radius: 40px;
+    margin-bottom: 20px;
+    transition-property: all;
+    transition: 2s;
+    background-color: dodgerblue;
+    color: #fff;
+    
+}
+
+#register button:hover{
+    transform: scale(1.3)
+}
+
+.error{
+    color: red;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 2px;
+    display: block;
+}
+
+@media (orientation: portrait){
+    .fname label {
+        margin-left: 20px;
+    } 
+    .fname input {
+        width: 400px;
+        margin-left: 20px;
+        display: block;
+    }
+    .lname label{
+        margin-left: 20px;
+    }
+    .lname input {
+        width: 400px;
+        margin-left: 20px;
+        display: block; 
+    }
+    .email label{
+        margin-left: 20px;
+    }
+    .email input {
+        width: 400px;
+        margin-left: 20px;
+        display: block; 
+    }
+    .pwd label{
+        margin-left: 20px;
+    }
+    .pwd input {
+        width: 400px;
+        margin-left: 20px;
+        display: block;  
+    }
+    .pwd2 label {
+        margin-left: 20px;
+    }
+    .pwd2 input {
+        width: 400px;
+        margin-left: 20px;
+        display: block;    
+    }
+    .gender label {
+        margin-left: 20px;
+    }
+    .gender [type = 'radio']{
+        width: 400px;
+        margin-left: 50px;
+        padding-left: 50px;
+        display: block;     
+    }
+    #register button {
+        margin-left: 150px;
+    }
+    
+    
+}
